@@ -27,14 +27,6 @@ html, body {
 
 }
 
-main {
-   
-    margin: auto;
-    width: 800px;
-    
-
-    }
-
 
 header {
     background-color: rgb(0, 0, 0);    
@@ -77,15 +69,10 @@ section {
     padding-left: 30px;
     font-family:var(--fonte3);
     font-size: 3.0vw;
-
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.389);
     
 }
 
-#borda { 
-    border-radius: 0px 0px 10px 10px;
 
-}
 section > p {
     padding-bottom: 2em;
 }
@@ -101,13 +88,13 @@ section.imagem {
     color: white;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.389);
+    
 }
 
 section.imagem > p {
     display: inline-block; /*Interessante*/
     padding: 6px;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.487);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.487); /*borda do texto*/
     box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.389);    
     background-color: rgba(0, 0, 0, 0.489);
 }
@@ -133,6 +120,6 @@ footer {
     text-align: center;
     color: white;
     padding: 10px;
-    margin-top: 50px;
+   
     
 }
