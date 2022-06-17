@@ -12,16 +12,14 @@
 :root {
     --fonte1:  Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
-    --fonte3: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 
 }
 
 
 html, body {
     min-height: 100vh;
-    background-color: rgba(128, 128, 128, 0.13);
-    /*background-image: url(../imagens/fundo.jpg);
-    background-attachment: fixed;*/
+    background-color: black;
     font-family: var(--fonte1);
    
 
@@ -67,7 +65,7 @@ section {
     padding-bottom: 5vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family:var(--fonte3);
+    font-family:var(--fonte2);
     font-size: 3.0vw;
     
 }
