@@ -19,9 +19,9 @@
 
 html, body {
     min-height: 100vh;
-    /*background-color: rgba(128, 128, 128, 0.13);*/
-    background-image: url(../imagens/fundo.jpg);
-    background-attachment: fixed;
+    background-color: rgba(128, 128, 128, 0.13);
+    /*background-image: url(../imagens/fundo.jpg);
+    background-attachment: fixed;*/
     font-family: var(--fonte1);
    
 
@@ -34,6 +34,7 @@ main {
     
 
     }
+
 
 header {
     background-color: rgb(0, 0, 0);    
@@ -76,6 +77,7 @@ section {
     padding-left: 30px;
     font-family:var(--fonte3);
     font-size: 3.0vw;
+
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.389);
     
 }
@@ -91,9 +93,7 @@ section > p {
 section.normal {
     background-color: rgb(255, 255, 255);
     color: black;
-    background-image: url(../imagens/papelvelho.jpg);
-    background-position: center center;
-    background-attachment:fixed;
+
 }
 
 section.imagem {
@@ -101,15 +101,14 @@ section.imagem {
     color: white;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.389);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.389);
 }
 
 section.imagem > p {
     display: inline-block; /*Interessante*/
     padding: 6px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.487);
-    box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.389);
-    
+    box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.389);    
     background-color: rgba(0, 0, 0, 0.489);
 }
 
@@ -128,8 +127,6 @@ section#img02 {
 
     
 }
-
-
 
 footer {
     background-color: black;
